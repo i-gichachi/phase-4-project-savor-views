@@ -1,0 +1,50 @@
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.confirm-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.confirm-dialog p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.confirm-dialog button {
+    margin-right: 10px;
+}
+
+.confirm-dialog button:last-child {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.confirm-dialog button:last-child:hover {
+    background-color: #c1c1c1;
+}
