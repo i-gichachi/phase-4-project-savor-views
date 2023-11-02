@@ -14,7 +14,7 @@ from flask_login import LoginManager, UserMixin, login_user, logout_user, login_
 from models import db, User, Restaurant, Review 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "fac593f8a353d654d97be5af17016a7fcb23120426328907"
+app.config['SECRET_KEY'] = "b'5\xb7\x91\xd1\xef\xcavM\xb6\xe7^\xff\xd9|\x0eb\xe5\x7fT\xbaX\x15\xba\xcd'"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
