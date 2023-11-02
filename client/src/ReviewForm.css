@@ -1,0 +1,64 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.StarRatingComponent > .dv-star-rating-star {
+    font-size: 22px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.StarRatingComponent > .dv-star-rating-empty-star i {
+    color: #ccc;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
